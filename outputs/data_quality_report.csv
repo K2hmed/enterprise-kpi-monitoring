@@ -1,0 +1,2 @@
+check,severity,detail
+date_gaps,WARN,Max gap between dates = 74 days

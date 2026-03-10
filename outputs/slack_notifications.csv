@@ -1,0 +1,21 @@
+ds,kpi,risk_level,value,baseline,z_score,detector_count,validation_status,injected_label,message
+2018-07-07,revenue,HIGH,11023.579999999998,33631.141,-1.9596625092733568,2,WARN,,"🔴 *HIGH KPI Alert*
+*Date:* 2018-07-07 00:00:00
+*KPI:* Revenue
+*Observed Value:* $11,023.58
+*Baseline:* $33,631.14
+*Z-Score:* -1.96
+*Validation Status:* WARN
+*Detectors Fired:* {'rule': True, 'z': False, 'iqr': True, 'iforest': False}
+*Root Cause Summary:* Primary KPI: revenue. customer_state: top driver = SP (delta=-8,400.17, contribution=31.3%) | product_category_name: top driver = relogios_presentes (delta=-2,473.70, contribution=7.6%)
+Simulation Tag: nan"
+2018-09-03,revenue,HIGH,0.0,34007.873666666674,-1.4673939501148996,2,WARN,,"🔴 *HIGH KPI Alert*
+*Date:* 2018-09-03 00:00:00
+*KPI:* Revenue
+*Observed Value:* $0.00
+*Baseline:* $34,007.87
+*Z-Score:* -1.47
+*Validation Status:* WARN
+*Detectors Fired:* {'rule': True, 'z': False, 'iqr': False, 'iforest': True}
+*Root Cause Summary:* Primary KPI: revenue. customer_state: top driver = SP (delta=-15,182.89, contribution=39.7%) | product_category_name: top driver = beleza_saude (delta=-4,554.82, contribution=11.1%)
+Simulation Tag: nan"
